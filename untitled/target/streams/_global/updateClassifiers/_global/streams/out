@@ -1,3 +1,4 @@
-[debug] not up to date. inChanged = true, force = false
-[debug] Updating ProjectRef(uri("file:/Users/mireioannikanyischardolmatrinley/IdeaProjects/untitled/"), "root")...
-[debug] Done updating ProjectRef(uri("file:/Users/mireioannikanyischardolmatrinley/IdeaProjects/untitled/"), "root")
+[warn] scala3-library_3-3.3.4-sources.jar no longer exists at /Users/mireioannikanyischardolmatrinley/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.3.4/scala3-library_3-3.3.4-sources.jar
+[debug] not up to date. inChanged = false, force = false
+[debug] Updating ProjectRef(uri("file:/Users/dominikmuller/Library/Mobile%20Documents/com~apple~CloudDocs/HTWG/SoftwareEngineerProjekt/untitled/"), "root")...
+[debug] Done updating ProjectRef(uri("file:/Users/dominikmuller/Library/Mobile%20Documents/com~apple~CloudDocs/HTWG/SoftwareEngineerProjekt/untitled/"), "root")
