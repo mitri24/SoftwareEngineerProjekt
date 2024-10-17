@@ -9,7 +9,7 @@ object HelloWorld {
     println(IDEA.instruction())
     //println(IDEA.inputLine())
 
-
+    //THIS IS A COMMENT TO CAUSE A MERGE CONFLICT :))) <-- Well, this is the original comment
 
   }
 
