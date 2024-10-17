@@ -1,3 +1,19 @@
+
+
+# Hilf Robert
+
+## Description
+Scala Projekt für Software Engineering Kurs.
+Das Projekt wird eine spielerische Programmier-Lernumgebung mit einem Spielfeld und einer IDE.
+
+## Getting Started
+
+### Prerequisites
+To run this project, you'll need:
+- Scala version X.X.X
+- sbt version X.X.X
+
+### Installation
 zum clonen:
 git clone _url_
 
