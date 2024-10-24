@@ -8,13 +8,53 @@ knowledge ist ein Maß dafür, wie gut der Spieler die Scala-Konzepte verstanden
  */
 
 // Definition der Spielerklasse
-case class Spieler(
-                    name: String,               // Name des Spielers
-                    level: Int,                 // Aktuelles Level des Spielers
-                    score: Int,                 // Gesamtpunktzahl
-                    inventory: List[String],    // Sammlung von Gegenständen
-                    knowledge: Double           // Fortschrittsbalken für Scala-Wissen (zwischen 0.0 und 1.0)
-                  )
+// Die Klasse Spieler repräsentiert den Spieler im Spiel
+class Spieler(var posX: Int, var posY: Int) {
+  // Methode, um den Spieler zu bewegen
+  def bewege(dx: Int, dy: Int): Unit = {
+    posX += dx  // X-Position aktualisieren
+    posY += dy  // Y-Position aktualisieren
+  }
+
+  // String-Darstellung des Spielers
+  override def toString: String = s"Spieler($posX, $posY)"
+}
+
+
+
+
+object Movement {
+
+  //Methode zur Bewegung der Figur auf dem Spielfeld
+  def moveRight(): Unit = {
+    println("Right")
+  }
+
+  //Methode zur Bewegung der Figur auf dem Spielfeld
+  def moveLeft(): Unit = {
+    println("Left ... Left")
+  }
+
+  //Methode zur Bewegung der Figur auf dem Spielfeld
+  def moveForward(): Unit = {
+    println("straight")
+  }
+
+  //Methode zur Drehung der Figur auf dem Spielfeld
+  def turn(): Unit = {}
+
+
+}
+
+//Figur-implementierung
+object figure {
+
+  val seize = 1.0 // LückenfüllerGröße
+
+  printf("x")
+
+}
+
 
 
 //zu implementierende methoden
