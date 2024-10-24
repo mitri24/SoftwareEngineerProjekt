@@ -1,11 +1,165 @@
-[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E103] Syntax Error: /Users/mireioannikanyischardolmatrinley/Desktop/SoftwareEngineerProjekt/untitled/src/main/scala/Hello.scala:3:0 [0m[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m3 |[0mprintln(msg)[0m
-[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m^^^^^^^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m  |[0mIllegal start of toplevel definition[0m
-[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
-[0m[[0m[31merror[0m] [0m[0m[31m[31m-- Error: /Users/mireioannikanyischardolmatrinley/Desktop/SoftwareEngineerProjekt/untitled/src/main/scala/HelloWorld.scala:37:4 [0m[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m37 |[0m    [33mdo[0m {[0m
-[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m    ^^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    end of statement expected but 'do' found[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- Error: /Users/mireioannikanyischardolmatrinley/Desktop/SoftwareEngineerProjekt/untitled/src/main/scala/Bewegung.scala:39:5 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m39 |[0m    }{[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m     ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m     end of statement expected but '{' found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E040] Syntax Error: /Users/mireioannikanyischardolmatrinley/Desktop/SoftwareEngineerProjekt/untitled/src/main/scala/IDEA.scala:27:0 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m27 |[0m}[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0meof expected, but '}' found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E040] Syntax Error: /Users/mireioannikanyischardolmatrinley/Desktop/SoftwareEngineerProjekt/untitled/src/main/scala/WeltTest.scala:47:0 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m47 |[0m[33mpackage[0m aview[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m'{' expected, but 'end of statement' found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E040] Syntax Error: /Users/mireioannikanyischardolmatrinley/Desktop/SoftwareEngineerProjekt/untitled/src/main/scala/WeltTest.scala:49:0 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m49 |[0m[33mimport[0m controller.Controller[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m'{' expected, but 'end of statement' found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E040] Syntax Error: /Users/mireioannikanyischardolmatrinley/Desktop/SoftwareEngineerProjekt/untitled/src/main/scala/WeltTest.scala:65:2 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m65 |[0m  [33mcase[0m Event.Quit => continue = [31mfalse[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m  ^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  '{' expected, but 'case' found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E040] Syntax Error: /Users/mireioannikanyischardolmatrinley/Desktop/SoftwareEngineerProjekt/untitled/src/main/scala/WeltTest.scala:70:2 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m70 |[0m  [33mcase[0m None       =>[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m  ^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  '{' expected, but 'case' found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E040] Syntax Error: /Users/mireioannikanyischardolmatrinley/Desktop/SoftwareEngineerProjekt/untitled/src/main/scala/WeltTest.scala:77:2 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m77 |[0m  [33mcase[0m [31m"q"[0m => controller.quit; None[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m  ^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  '{' expected, but 'case' found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E040] Syntax Error: /Users/mireioannikanyischardolmatrinley/Desktop/SoftwareEngineerProjekt/untitled/src/main/scala/WeltTest.scala:78:2 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m78 |[0m  [33mcase[0m [31m"z"[0m => controller.doAndPublish(controller.redo); None[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m  ^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  '}' expected, but unindent found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E088] Syntax Error: /Users/mireioannikanyischardolmatrinley/Desktop/SoftwareEngineerProjekt/untitled/src/main/scala/WeltTest.scala:79:2 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m79 |[0m  [33mcase[0m [31m"y"[0m => controller.doAndPublish(controller.undo); None[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m  ^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  Expected start of definition[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E088] Syntax Error: /Users/mireioannikanyischardolmatrinley/Desktop/SoftwareEngineerProjekt/untitled/src/main/scala/WeltTest.scala:80:2 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m80 |[0m  [33mcase[0m _ => {[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m  ^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  Expected start of definition[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E161] Naming Error: /Users/mireioannikanyischardolmatrinley/Desktop/SoftwareEngineerProjekt/untitled/src/main/scala/project.scala:19:0 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m19 |[0m[33mprivate[0m [33mobject[0m Movement {[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mMovement is already defined as [33mobject[0m [35mMovement[0m in /Users/mireioannikanyischardolmatrinley/Desktop/SoftwareEngineerProjekt/untitled/src/main/scala/Spieler.scala[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E161] Naming Error: /Users/mireioannikanyischardolmatrinley/Desktop/SoftwareEngineerProjekt/untitled/src/main/scala/project.scala:54:0 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m54 |[0m[33mobject[0m [35mfigure[0m {[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mfigure is already defined as [33mobject[0m [35mfigure[0m in /Users/mireioannikanyischardolmatrinley/Desktop/SoftwareEngineerProjekt/untitled/src/main/scala/Spieler.scala[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /Users/mireioannikanyischardolmatrinley/Desktop/SoftwareEngineerProjekt/untitled/src/main/scala/Bewegung.scala:43:0 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m43 |[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mLine is indented too far to the left, or a `}` is missing[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /Users/mireioannikanyischardolmatrinley/Desktop/SoftwareEngineerProjekt/untitled/src/main/scala/Level.scala:12:27 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m12 |[0m[33mclass[0m [35mLevel[0m([33mval[0m [36mspielfeld[0m: [35mWelt[0m, [33mval[0m [36mspieler[0m: [35mSpieler[0m, [33mval[0m [36mdiamant[0m: [35mGegenstand[0m) {[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                           ^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                           Not found: type Welt[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /Users/mireioannikanyischardolmatrinley/Desktop/SoftwareEngineerProjekt/untitled/src/main/scala/WeltTest.scala:6:11 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m6 |[0m[33mimport[0m org.junit.jupiter.api.Test[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m       ^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m       value junit is not a member of org[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /Users/mireioannikanyischardolmatrinley/Desktop/SoftwareEngineerProjekt/untitled/src/main/scala/WeltTest.scala:25:7 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m25 |[0m[33mimport[0m controller.Controller[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m       ^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m       Not found: controller[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /Users/mireioannikanyischardolmatrinley/Desktop/SoftwareEngineerProjekt/untitled/src/main/scala/WeltTest.scala:26:7 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m26 |[0m[33mimport[0m model.Field[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m       ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m       Not found: model - did you mean module?[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /Users/mireioannikanyischardolmatrinley/Desktop/SoftwareEngineerProjekt/untitled/src/main/scala/WeltTest.scala:27:7 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m27 |[0m[33mimport[0m model.Move[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m       ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m       Not found: model - did you mean module?[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /Users/mireioannikanyischardolmatrinley/Desktop/SoftwareEngineerProjekt/untitled/src/main/scala/WeltTest.scala:28:7 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m28 |[0m[33mimport[0m model.Stone[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m       ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m       Not found: model - did you mean module?[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /Users/mireioannikanyischardolmatrinley/Desktop/SoftwareEngineerProjekt/untitled/src/main/scala/WeltTest.scala:29:11 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m29 |[0m[33mimport[0m org.scalatest.matchers.should.Matchers._[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m       ^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m       value scalatest is not a member of org[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /Users/mireioannikanyischardolmatrinley/Desktop/SoftwareEngineerProjekt/untitled/src/main/scala/Spiel.scala:10:9 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m10 |[0m    Welt.setHindernis([31m3[0m, [31m3[0m) [34m// Hindernis auf Position (3, 3)[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m    ^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    value setHindernis is not a member of object main.scala.Welt[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /Users/mireioannikanyischardolmatrinley/Desktop/SoftwareEngineerProjekt/untitled/src/main/scala/Spiel.scala:11:9 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m11 |[0m    Welt.setHindernis([31m4[0m, [31m3[0m) [34m// Hindernis auf Position (4, 3)[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m    ^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    value setHindernis is not a member of object main.scala.Welt[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /Users/mireioannikanyischardolmatrinley/Desktop/SoftwareEngineerProjekt/untitled/src/main/scala/Spiel.scala:12:9 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m12 |[0m    Welt.setDiamant([31m7[0m, [31m7[0m) [34m// Diamant auf Position (7, 7)[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m    ^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    value setDiamant is not a member of object main.scala.Welt[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /Users/mireioannikanyischardolmatrinley/Desktop/SoftwareEngineerProjekt/untitled/src/main/scala/Spiel.scala:15:22 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m15 |[0m    [33mval[0m [36mspieler[0m = [33mnew[0m [35mSpieler[0m([31m0[0m, [31m0[0m) [34m// Spieler startet bei (0, 0)[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                      ^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                      Not found: type Spieler[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /Users/mireioannikanyischardolmatrinley/Desktop/SoftwareEngineerProjekt/untitled/src/main/scala/Spiel.scala:16:22 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m16 |[0m    [33mval[0m [36mdiamant[0m = [33mnew[0m [35mGegenstand[0m()([31m7[0m, [31m7[0m) [34m// Diamant ist ebenfalls bei (7, 7)[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                      ^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                      Not found: type Gegenstand[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E173] Reference Error: /Users/mireioannikanyischardolmatrinley/Desktop/SoftwareEngineerProjekt/untitled/src/main/scala/Spiel.scala:17:20 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m17 |[0m    [33mval[0m [36mlevel[0m = [33mnew[0m [35mLevel[0m(spielfeld, spieler, diamant)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                    ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mnone of the overloaded alternatives named <init> can be accessed as a member of java.util.logging.Level from [33mobject[0m [35mSpiel[0m.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  private [33mconstructor[0m [35mLevel[0m can only be accessed from [33mclass[0m [35mLevel[0m in [33mpackage[0m [35mjava.util.logging[0m.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  protected[logging] [33mconstructor[0m [35mLevel[0m can only be accessed from [33mpackage[0m [35mjava.util.logging[0m in [33mpackage[0m [35mjava.util[0m, or [33mclass[0m [35mLevel[0m in [33mpackage[0m [35mjava.util.logging[0m or one of its subclasses.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  protected[logging] [33mconstructor[0m [35mLevel[0m can only be accessed from [33mpackage[0m [35mjava.util.logging[0m in [33mpackage[0m [35mjava.util[0m, or [33mclass[0m [35mLevel[0m in [33mpackage[0m [35mjava.util.logging[0m or one of its subclasses.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /Users/mireioannikanyischardolmatrinley/Desktop/SoftwareEngineerProjekt/untitled/src/main/scala/Spiel.scala:24:11 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m24 |[0m      Welt.printField(spieler) [34m// Drucke das aktuelle Spielfeld[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m      ^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m      value printField is not a member of object main.scala.Welt[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /Users/mireioannikanyischardolmatrinley/Desktop/SoftwareEngineerProjekt/untitled/src/main/scala/Spiel.scala:30:12 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m30 |[0m      Level.bewegeSpieler(richtung) [34m// Bewege den Spieler[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m      ^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m   value bewegeSpieler is not a member of object java.util.logging.Level[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /Users/mireioannikanyischardolmatrinley/Desktop/SoftwareEngineerProjekt/untitled/src/main/scala/Spiel.scala:33:16 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m33 |[0m      [33mif[0m (Level.hatGewonnen) {[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m          ^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m     value hatGewonnen is not a member of object java.util.logging.Level[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /Users/mireioannikanyischardolmatrinley/Desktop/SoftwareEngineerProjekt/untitled/src/main/scala/Welt.scala:24:26 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m24 |[0m  [33mdef[0m [36mprintField[0m([36mspieler[0m: [35mSpieler[0m): [35mUnit[0m = {[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                          ^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                      Not found: type Spieler - did you mean Spiel.type?[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /Users/mireioannikanyischardolmatrinley/Desktop/SoftwareEngineerProjekt/untitled/src/main/scala/WeltTest.scala:15:4 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m15 |[0m    assertEquals([31m'#'[0m, welt.grid([31m2[0m)([31m2[0m)) [34m// Überprüfe, ob das Hindernis korrekt gesetzt wurde[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m    ^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    Not found: assertEquals[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E135] Type Error: /Users/mireioannikanyischardolmatrinley/Desktop/SoftwareEngineerProjekt/untitled/src/main/scala/WeltTest.scala:66:2 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m65 |[0m  [33mcase[0m Event.Quit => continue = [31mfalse[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m66 |[0m  [33mcase[0m Event.Move => println(controller.field.toString)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                     ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m           Stable identifier required, but _root_.scala.Predef.??? found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E135] Type Error: /Users/mireioannikanyischardolmatrinley/Desktop/SoftwareEngineerProjekt/untitled/src/main/scala/WeltTest.scala:71:2 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m70 |[0m  [33mcase[0m None       =>[0m
+[0m[[0m[31merror[0m] [0m[0m[31m71 |[0m  [33mcase[0m Some(move) => controller.doAndPublish(controller.put, move)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                    ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m           Stable identifier required, but _root_.scala.Predef.??? found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E135] Type Error: /Users/mireioannikanyischardolmatrinley/Desktop/SoftwareEngineerProjekt/untitled/src/main/scala/WeltTest.scala:77:29 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m77 |[0m  [33mcase[0m [31m"q"[0m => controller.quit; None[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                             ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m           Stable identifier required, but _root_.scala.Predef.??? found[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0m33 errors found[0m

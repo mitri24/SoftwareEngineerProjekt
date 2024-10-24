@@ -7,6 +7,8 @@ inventory speichert alle Gegenstände, die der Spieler gesammelt hat.
 knowledge ist ein Maß dafür, wie gut der Spieler die Scala-Konzepte verstanden hat.
  */
 
+package main.scala
+
 // Definition der Spielerklasse
 // Die Klasse Spieler repräsentiert den Spieler im Spiel
 class Spieler(var posX: Int, var posY: Int) {
@@ -19,6 +21,9 @@ class Spieler(var posX: Int, var posY: Int) {
   // String-Darstellung des Spielers
   override def toString: String = s"Spieler($posX, $posY)"
 }
+
+//Enum Spieler:
+
 
 object Movement {
 

@@ -4,11 +4,11 @@ import main.scala.HelloWorld.{IDEA, Movement}
 
 import scala.io.StdIn.readLine
 
-class Bewegung{
+class Bewegung {
 
   object IDEA {
 
-    def movement (input: List[String]): Unit = { // können es rekursiv machen
+    def movement(input: List[String]): Unit = { // können es rekursiv machen
       input.foreach {
         case "moveForward()" => Movement.moveForward()
         case "moveRight()" => Movement.moveRight()
@@ -34,9 +34,6 @@ class Bewegung{
       // ein Wert, den du vergleichen möchtest
 
 
-
-
-    }{
-
     }
   }
+}

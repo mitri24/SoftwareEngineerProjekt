@@ -2,15 +2,14 @@ package main.scala
 
 import java.util.logging.Level
 
-
 // Objekt, das das Spiel startet
 object Spiel {
   def main(args: Array[String]): Unit = {
     // Initialisiere das Spielfeld und setze Hindernisse und den Diamanten
     val spielfeld = new Welt(10, 10)
-    Welt.setHindernis(3, 3) // Hindernis auf Position (3, 3)
-    Welt.setHindernis(4, 3) // Hindernis auf Position (4, 3)
-    Welt.setDiamant(7, 7) // Diamant auf Position (7, 7)
+    spielfeld.setHindernis(3, 3) // Hindernis auf Position (3, 3)
+    spielfeld.setHindernis(4, 3) // Hindernis auf Position (4, 3)
+    spielfeld.setDiamant(7, 7) // Diamant auf Position (7, 7)
 
     // Initialisiere den Spieler und das Level
     val spieler = new Spieler(0, 0) // Spieler startet bei (0, 0)

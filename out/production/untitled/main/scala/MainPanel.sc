@@ -15,3 +15,8 @@ object IDEA {}
 
 //scala.io.StdIn.readLine()
 
+1+2
+
+def fun1(s:String)= s+"!"
+
+fun1("Marko")
